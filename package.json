@@ -1,0 +1,20 @@
+{
+  "name": "simple-trello",
+  "version": "1.0.0",
+  "author": "Hai Nguyen <nghai.dev@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "react-helmet": "^5.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ng-hai/simple-trello"
+  }
+}
