@@ -1,0 +1,6 @@
+{
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "comma-dangle": ["warn", "always-multiline"]
+  }
+}
