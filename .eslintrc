@@ -1,6 +1,10 @@
 {
   "extends": ["standard", "standard-react"],
+  "parser": "babel-eslint",
   "rules": {
     "comma-dangle": ["warn", "always-multiline"]
+  },
+  "env": {
+    "browser": true
   }
 }
