@@ -3,5 +3,14 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const { resolve } = require('path')
 
- // You can delete this file if you're not using it
+exports.createPages = ({ actions }) => {
+  const { createPage } = actions
+
+  createPage({
+    path: '/',
+    matchPath: '/:path',
+    component: resolve(__dirname, './src/app.js'),
+  })
+}

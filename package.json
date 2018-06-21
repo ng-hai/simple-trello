@@ -4,18 +4,18 @@
   "author": "Hai Nguyen <nghai.dev@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
-    "gatsby": "^1.9.270",
-    "gatsby-link": "^1.6.44",
-    "gatsby-plugin-no-sourcemaps": "^1.0.5",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-react-next": "^1.0.11",
-    "gatsby-plugin-styled-components": "^2.0.11",
-    "prop-types": "^15.6.1",
+    "gatsby": "next",
+    "gatsby-plugin-no-sourcemaps": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-styled-components": "next",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
     "sanitize.css": "^5.0.0",
-    "styled-components": "^3.3.2",
-    "webfontloader": "^1.6.28"
+    "styled-components": "^3.3.3"
   },
   "license": "MIT",
   "scripts": {

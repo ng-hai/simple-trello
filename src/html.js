@@ -64,8 +64,12 @@ class HTML extends React.Component {
           <meta name='theme-color' content='#ffffff' />
           <link
             rel='preconnect'
-            href='https://fonts.gstatic.com/'
+            href='https://fonts.googleapis.com/'
             crossOrigin='anonymous'
+          />
+          <link
+            href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&amp;subset=vietnamese'
+            rel='stylesheet'
           />
           {this.props.headComponents}
           {css}

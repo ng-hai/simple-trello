@@ -1,15 +1,23 @@
 import { injectGlobal, css } from 'styled-components'
 
 const globalStyles = css`
-  body {
-    font-family: sans-serif;
+  html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+  }
 
-    .wf-active & {
-      font-family: 'IBM Plex Sans', sans-serif;
-    }
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
   }
 `
 
-export default function () {
-  injectGlobal`${globalStyles}`
-}
+injectGlobal`${globalStyles}`
