@@ -31,15 +31,31 @@ export default class HTML extends React.Component {
           <meta name='msapplication-TileColor' content='#20242a' />
           <meta name='theme-color' content='#20242a' />
 
-          <meta property='og:image' content='https://simple-trello.netlify.com/og-image.jpg' />
+          <meta
+            property='og:image'
+            content='https://simple-trello.netlify.com/og-image.jpg'
+          />
           <meta property='og:image:width' content='1200' />
           <meta property='og:image:height' content='600' />
+          <meta property='og:image:type' content='image/jpeg' />
           <meta property='og:title' content='Simple Trello' />
+          <meta property='og:type' content='website' />
+          <meta property='og:url' content='https://simple-trello.netlify.com' />
           <meta
             property='og:description'
             content='A simple cloning version of Trello, using React ecosystem.'
           />
-          <meta property='og:url' content='https://simple-trello.netlify.com' />
+
+          <meta name='twitter:card' content='summary' />
+          <meta name='twitter:title' content='Simple Trello' />
+          <meta
+            name='twitter:description'
+            content='A simple cloning version of Trello, using React ecosystem.'
+          />
+          <meta
+            name='twitter:image'
+            content='https://simple-trello.netlify.com/og-image.jpg'
+          />
 
           <link
             rel='apple-touch-icon'
