@@ -1,35 +1,17 @@
 import React from 'react'
-import { object, string, node } from 'prop-types'
+import { object, array, string } from 'prop-types'
 
-let stylesStr
-if (process.env.NODE_ENV === `production`) {
-  try {
-    stylesStr = require(`!raw-loader!../public/styles.css`)
-  } catch (e) {
-    console.log(e)
-  }
-}
-
-class HTML extends React.Component {
+export default class HTML extends React.Component {
   static propTypes = {
     htmlAttributes: object,
+    headComponents: array,
     bodyAttributes: object,
-    body: string.isRequired,
-    headComponents: node.isRequired,
-    preBodyComponents: node.isRequired,
-    postBodyComponents: node.isRequired,
+    preBodyComponents: array,
+    body: string,
+    postBodyComponents: array,
   }
 
   render () {
-    let css
-    if (process.env.NODE_ENV === `production`) {
-      css = (
-        <style
-          id='gatsby-inlined-css'
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
-        />
-      )
-    }
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -39,6 +21,12 @@ class HTML extends React.Component {
             name='viewport'
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
+          <title>Simple Trello</title>
+          <meta name='description' content='A simple cloning version of Trello, using React ecosystem.' />
+          <meta name='apple-mobile-web-app-title' content='Simple Trello' />
+          <meta name='application-name' content='Simple Trello' />
+          <meta name='msapplication-TileColor' content='#20242a' />
+          <meta name='theme-color' content='#20242a' />
           <link
             rel='apple-touch-icon'
             sizes='180x180'
@@ -57,22 +45,17 @@ class HTML extends React.Component {
             href='/favicon-16x16.png'
           />
           <link rel='manifest' href='/site.webmanifest' />
-          <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5399ad' />
-          <meta name='apple-mobile-web-app-title' content='Simple Trello' />
-          <meta name='application-name' content='Simple Trello' />
-          <meta name='msapplication-TileColor' content='#2d89ef' />
-          <meta name='theme-color' content='#ffffff' />
+          <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#55dbf8' />
           <link
             rel='preconnect'
             href='https://fonts.googleapis.com/'
             crossOrigin='anonymous'
           />
           <link
-            href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&amp;subset=vietnamese'
+            href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=vietnamese'
             rel='stylesheet'
           />
           {this.props.headComponents}
-          {css}
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
@@ -87,5 +70,3 @@ class HTML extends React.Component {
     )
   }
 }
-
-export default HTML

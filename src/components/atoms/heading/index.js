@@ -2,40 +2,61 @@ import React from 'react'
 import styled from 'styled-components'
 import { oneOf } from 'prop-types'
 
-import { BLACK } from '../../theme'
+const VARIANT = {
+  h1: 'h1',
+  h2: 'h2',
+  h3: 'h3',
+  h4: 'h4',
+  h5: 'h5',
+  h6: 'h6',
+}
 
-const Level = {
+const StyledHeading = {
   h1: styled.h1`
-    font-size: 22px;
-    line-height: 1.2em;
-    margin: 0 0 10px;
-    color: ${BLACK};
+    font-size: 48px;
+    line-height: 56px;
+    margin: initial;
   `,
   h2: styled.h2`
-    font-size: 18px;
-    line-height: 1.2em;
-    margin: 0 0 9px;
-    color: ${BLACK};
+    font-size: 40px;
+    line-height: 48px;
+    margin: initial;
   `,
   h3: styled.h3`
-    font-size: 16px;
-    line-height: 1.25em;
-    margin: 0 0 6px;
-    color: ${BLACK};
+    font-size: 32px;
+    line-height: 40px;
+    margin: initial;
+  `,
+  h4: styled.h4`
+    font-size: 24px;
+    line-height: 32px;
+    margin: initial;
+  `,
+  h5: styled.h5`
+    font-size: 20px;
+    line-height: 28px;
+    margin: initial;
+  `,
+  h6: styled.h6`
+    font-size: 14px;
+    line-height: 20px;
+    margin: initial;
   `,
 }
 
-const Heading = ({ size, ...props }) => {
-  const Component = Level[size]
+const Heading = ({ variant, ...props }) => {
+  const Component = StyledHeading[variant]
   return <Component {...props} />
 }
 
 Heading.propTypes = {
-  size: oneOf(Object.keys(Level)),
+  variant: oneOf(Object.keys(VARIANT)),
 }
 
 Heading.defaultProps = {
-  size: 'h1',
+  variant: VARIANT.h1,
 }
+
+Heading.variants = VARIANT
 
 export default Heading

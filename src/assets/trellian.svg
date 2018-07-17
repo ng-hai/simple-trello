@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>trellian</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trellian" fill-rule="nonzero" fill="#959DA1">
+            <g id="person" transform="translate(4.000000, 3.500000)">
+                <path d="M8,7.5 C9.38086578,7.5 10.5,6.3806573 10.5,4.99925484 C10.5,3.61921468 9.38073776,2.5 8,2.5 C6.62017938,2.5 5.5,3.61986271 5.5,4.99925484 C5.5,6.38000918 6.62005128,7.5 8,7.5 Z M4.85786628,8.22070446 C4.02027053,7.40336759 3.5,6.26207898 3.5,4.99925484 C3.5,2.51490313 5.516,0.5 8,0.5 C10.4855652,0.5 12.5,2.51490313 12.5,4.99925484 C12.5,6.26217791 11.980052,7.40354641 11.1425331,8.22089655 C13.9985139,9.59460876 16,12.783956 16,16.5 L0,16.5 C0,12.7837828 2.00167267,9.59431142 4.85786628,8.22070446 Z M8,9.5 C5.32230967,9.5 2.99300755,11.5838285 2.24831241,14.5 L13.7516876,14.5 C13.0069925,11.5838285 10.6776903,9.5 8,9.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

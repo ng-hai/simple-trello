@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>lightbulb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lightbulb">
+            <g id="bulb-2" transform="translate(7.000000, 5.000000)">
+                <path d="M10,4.86542188 C10,5.7871225 9.73711457,6.64841568 9.27946367,7.3830481 C8.40253929,8.78995686 7.95544218,10.9997 5.00037972,10.9997 C2.22856951,10.9997 1.5915041,8.78703392 0.715539154,7.3762279 C0.261725991,6.6425698 -0.0002,5.78419956 -0.0002,4.86542188 C-0.0002,2.1782651 2.23816387,-0.0003 5.00037972,-0.0003 C7.76163613,-0.0003 10,2.1782651 10,4.86542188 Z" id="Stroke-1" stroke="#959DA1" stroke-width="2" stroke-linecap="round"></path>
+                <g id="Group-3" transform="translate(2.000000, 10.300000)"></g>
+                <g id="Group-2" transform="translate(3.830000, 6.000000)" stroke="#959DA1" stroke-width="2" stroke-linecap="round">
+                    <path d="M1.20001221,4.5 L1.20001221,0.999871327" id="Line"></path>
+                </g>
+                <g id="Group-4" transform="translate(2.000000, 12.180000)" stroke="#959DA1" stroke-width="2" stroke-linecap="round">
+                    <path d="M0.995882808,1.8189 L4.9809,1.8189" id="Stroke-7"></path>
+                </g>
+                <g id="Group-4-Copy" transform="translate(2.000000, 9.180000)" stroke="#959DA1" stroke-width="2" stroke-linecap="round">
+                    <path d="M0.995882808,1.8189 L4.9809,1.8189" id="Stroke-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

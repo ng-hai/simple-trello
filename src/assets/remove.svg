@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>remove</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="remove" fill-rule="nonzero" fill="#959DA1">
+            <g transform="translate(4.000000, 11.000000)" id="Line">
+                <path d="M1.08828399,2 L15.0145272,2 C15.5911909,2 16.0586692,1.55228475 16.0586692,1 C16.0586692,0.44771525 15.5911909,0 15.0145272,0 L1.08828399,0 C0.51162029,0 0.0441419951,0.44771525 0.0441419951,1 C0.0441419951,1.55228475 0.51162029,2 1.08828399,2 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

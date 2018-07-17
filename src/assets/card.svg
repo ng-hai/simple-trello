@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card" fill-rule="nonzero" fill="#959DA1">
+            <g transform="translate(4.000000, 4.500000)">
+                <path d="M2,12.4995463 L14,12.4995463 L14,2.51357819 L2,2.51357819 L2,12.4995463 Z M0,1.85759502 C0,1.14292926 0.607681274,0.563578187 1.33663106,0.563578187 L14.6633689,0.563578187 C15.4015699,0.563578187 16,1.1559419 16,1.85759502 L16,13.1981371 C16,13.9128029 15.3923187,14.4921539 14.6633689,14.4921539 L1.33663106,14.4921539 C0.598430109,14.4921539 0,13.8997902 0,13.1981371 L0,1.85759502 Z" id="Rectangle"></path>
+                <polygon id="Line" points="1.17617679 9.55833333 14.898742 9.55833333 14.898742 7.60833333 1.17617679 7.60833333"></polygon>
+                <polygon id="Line" points="9 7.97000027 9 12.8088892 11 12.8088892 11 7.97000027"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

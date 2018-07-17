@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alert" fill="#959DA1">
+            <g id="icon" transform="translate(4.000000, 4.000000)">
+                <path d="M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval" fill-rule="nonzero"></path>
+                <path d="M7.10000025,10.5560153 L7.10000025,12.4519963 L9.00043002,12.4519963 L9.00043002,10.5560153 L7.10000025,10.5560153 Z M8.93990678,6.02535925 L8.93990678,3.66153871 L7.14841884,3.66153871 L7.14841884,6.02535925 L7.60839547,9.81732136 L8.4678255,9.81732136 L8.93990678,6.02535925 Z" id="!"></path>
+            </g>
+        </g>
+    </g>
+</svg>

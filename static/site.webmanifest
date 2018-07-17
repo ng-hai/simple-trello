@@ -13,8 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "start_url": "https://simple-trello.netlify.com",
+    "theme_color": "#20242a",
+    "background_color": "#20242a",
     "display": "standalone"
 }

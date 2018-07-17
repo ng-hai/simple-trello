@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>cardcover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cardcover" fill-rule="nonzero" fill="#959DA1">
+            <g id="card" transform="translate(4.000000, 4.500000)">
+                <path d="M2,10.5151811 L14.0034802,10.5151811 L14,2.51438213 L2,2.51438213 L2,10.5151811 Z M0,1.82887553 C0,1.11420977 0.607681274,0.534858694 1.33663106,0.534858694 L14.6633689,0.534858694 C15.4015699,0.534858694 16,1.12722241 16,1.82887553 L16,13.1714137 C16,13.8860794 15.3923187,14.4654305 14.6633689,14.4654305 L1.33663106,14.4654305 C0.598430109,14.4654305 0,13.8730668 0,13.1714137 L0,1.82887553 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

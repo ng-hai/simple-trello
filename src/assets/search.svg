@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search" fill-rule="nonzero" fill="#959DA1">
+            <g transform="translate(3.000000, 4.000000)" id="Combined-Shape">
+                <path d="M6.66531281,11.7489008 L2.67941421,15.7347994 C2.28888992,16.1253236 1.65572494,16.1253236 1.26520065,15.7347994 C0.874676358,15.3442751 0.874676358,14.7111101 1.26520065,14.3205858 L5.25109925,10.3346872 C4.46443363,9.2597335 4,7.9341039 4,6.5 C4,2.91014913 6.91014913,0 10.5,0 C14.0898509,0 17,2.91014913 17,6.5 C17,10.0898509 14.0898509,13 10.5,13 C9.0658961,13 7.7402665,12.5355664 6.66531281,11.7489008 Z M10.5,11 C12.9852814,11 15,8.98528137 15,6.5 C15,4.01471863 12.9852814,2 10.5,2 C8.01471863,2 6,4.01471863 6,6.5 C6,8.98528137 8.01471863,11 10.5,11 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

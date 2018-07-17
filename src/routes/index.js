@@ -1,0 +1,5 @@
+export { default as HomePage } from './home'
+export { default as LoginPage } from './login'
+export { default as Board } from './board'
+export { default as NotFound } from './404'
+export { default as Card } from './card'

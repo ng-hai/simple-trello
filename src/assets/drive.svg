@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>drive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="drive" fill="#959DA1">
+            <g transform="translate(2.800000, 4.500000)" id="Shape">
+                <path d="M8.35409857,10.0250996 L5.69275993,14.6384603 L14.4985091,14.6384603 L17.1600973,10.0250996 L8.35409857,10.0250996 Z M16.405493,8.72485497 L11.8371871,0.798461376 L6.51389439,0.798461376 L11.0825246,8.72485497 L16.4054846,8.72485497 L16.405493,8.72485497 Z M5.75763493,2.10935214 L1.1908678,10.0250996 L3.85254744,14.6384603 L8.41924803,6.7226047 L5.75762661,2.10934382 L5.75763493,2.10935214 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

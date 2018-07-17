@@ -1,18 +1,21 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { ThemeProvider } from 'styled-components'
+import { Route } from 'react-router-dom'
 
 import 'sanitize.css/sanitize.css'
-import './services/create-global-styles'
+import './services/globalStyles'
 
-import { PrivateRoute, HomePage, LoginPage } from './components'
+import theme from './theme'
+import ModalSwitch from './modal-switch'
+import AuthContext from './context/auth'
 
 const App = () => {
   return (
-    <Switch>
-      <PrivateRoute exact path='/' component={HomePage} />
-      <PrivateRoute path='/about' component={() => <h1>about</h1>} />
-      <Route path='/login' component={LoginPage} />
-    </Switch>
+    <ThemeProvider theme={theme}>
+      <AuthContext>
+        <Route component={ModalSwitch} />
+      </AuthContext>
+    </ThemeProvider>
   )
 }
 

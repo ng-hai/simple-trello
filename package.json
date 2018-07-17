@@ -4,37 +4,46 @@
   "author": "Hai Nguyen <nghai.dev@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
+    "firebase": "^5.2.0",
     "gatsby": "next",
     "gatsby-plugin-no-sourcemaps": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-styled-components": "next",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "lodash.debounce": "^4.0.8",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
+    "react-beautiful-dnd": "^8.0.3",
     "react-dom": "^16.4.1",
-    "react-feather": "^1.1.0",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1",
-    "sanitize.css": "^5.0.0",
-    "styled-components": "^3.3.3"
+    "sanitize.css": "^6.0.0",
+    "styled-components": "^3.3.3",
+    "styled-tools": "^0.6.0"
   },
   "license": "MIT",
   "scripts": {
+    "prebuild": "yarn icons",
     "build": "gatsby build",
-    "start": "gatsby develop --https"
+    "start": "gatsby develop",
+    "icons": "svgr --icon --replace-attr-values \"#959DA1=currentColor\" -d src/components/atoms/icon/icons src/assets",
+    "preicons": "rm -rf src/components/atoms/icon/icons"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ng-hai/simple-trello"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
+    "@svgr/cli": "^2.1.0",
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0"
   }
 }
