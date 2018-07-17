@@ -22,11 +22,25 @@ export default class HTML extends React.Component {
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
           <title>Simple Trello</title>
-          <meta name='description' content='A simple cloning version of Trello, using React ecosystem.' />
+          <meta
+            name='description'
+            content='A simple cloning version of Trello, using React ecosystem.'
+          />
           <meta name='apple-mobile-web-app-title' content='Simple Trello' />
           <meta name='application-name' content='Simple Trello' />
           <meta name='msapplication-TileColor' content='#20242a' />
           <meta name='theme-color' content='#20242a' />
+
+          <meta property='og:image' content='/og-image.jpg' />
+          <meta property='og:image:width' content='513.5' />
+          <meta property='og:image:height' content='269' />
+          <meta property='og:title' content='Simple Trello' />
+          <meta
+            property='og:description'
+            content='A simple cloning version of Trello, using React ecosystem.'
+          />
+          <meta property='og:url' content='https://simple-trello.netlify.com' />
+
           <link
             rel='apple-touch-icon'
             sizes='180x180'
