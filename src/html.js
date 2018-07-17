@@ -31,7 +31,7 @@ export default class HTML extends React.Component {
           <meta name='msapplication-TileColor' content='#20242a' />
           <meta name='theme-color' content='#20242a' />
 
-          <meta property='og:image' content='/og-image.jpg' />
+          <meta property='og:image' content='https://simple-trello.netlify.com/og-image.jpg' />
           <meta property='og:image:width' content='1200' />
           <meta property='og:image:height' content='600' />
           <meta property='og:title' content='Simple Trello' />
