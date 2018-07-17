@@ -199,6 +199,7 @@ class BoardList extends React.PureComponent {
           [draggableId]: {
             ...sourceList.cards[draggableId],
             index: finalDestinationIndex,
+            listId: destinationDroppableId,
           },
         }
 

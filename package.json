@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "prebuild": "yarn icons",
+    "prebuild": "yarn icons && rm -rf public",
     "build": "gatsby build",
     "start": "gatsby develop",
     "icons": "svgr --icon --replace-attr-values \"#959DA1=currentColor\" -d src/components/atoms/icon/icons src/assets",
