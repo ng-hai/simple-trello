@@ -32,8 +32,8 @@ export default class HTML extends React.Component {
           <meta name='theme-color' content='#20242a' />
 
           <meta property='og:image' content='/og-image.jpg' />
-          <meta property='og:image:width' content='513.5' />
-          <meta property='og:image:height' content='269' />
+          <meta property='og:image:width' content='1200' />
+          <meta property='og:image:height' content='600' />
           <meta property='og:title' content='Simple Trello' />
           <meta
             property='og:description'
