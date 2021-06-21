@@ -1,7 +1,7 @@
 {
   "name": "simple-trello",
   "version": "1.0.0",
-  "author": "Hai Nguyen <nghai.dev@gmail.com>",
+  "author": "Hai Nguyen",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
     "firebase": "^5.2.0",
