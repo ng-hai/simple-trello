@@ -3,12 +3,13 @@ import 'firebase/auth'
 import 'firebase/database'
 
 const config = {
-  apiKey: 'AIzaSyAzuFlMWF_1u9A_Squ4b_Z5q5cFRh68Ajk',
-  authDomain: 'simple-react-trello.firebaseapp.com',
-  databaseURL: 'https://simple-react-trello.firebaseio.com',
-  projectId: 'simple-react-trello',
-  storageBucket: 'simple-react-trello.appspot.com',
-  messagingSenderId: '522397619012',
+  apiKey: "AIzaSyCNTULeh09SwhmZaZTR7rsxg1_eEg_vfbw",
+  authDomain: "simple-trello-ddda1.firebaseapp.com",
+  projectId: "simple-trello-ddda1",
+  storageBucket: "simple-trello-ddda1.appspot.com",
+  messagingSenderId: "487010127369",
+  appId: "1:487010127369:web:8752562b0005f10b0cf2d8",
+  measurementId: "G-WL4R1H83M2"
 }
 
 class Firebase {
